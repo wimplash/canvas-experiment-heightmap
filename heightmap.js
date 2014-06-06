@@ -17,7 +17,7 @@ wimplash.experiments.canvas.heightmap.HeightMap = function HeightMap(props) {
 		this._props.rotation = props.rotation || DEFAULT_PROPS.rotation;
 		this._props.skew = props.skew || DEFAULT_PROPS.skew;
 	} else {
-		this._props = defaultProps();
+		this._props = DEFAULT_PROPS;
 	}
 
 	return {
