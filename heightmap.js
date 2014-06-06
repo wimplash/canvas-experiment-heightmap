@@ -1,7 +1,7 @@
-if (!wimplash) { wimplash = {}; }
-if (!wimplash.experiments) { wimplash.experiments = {}; }
-if (!wimplash.experiments.canvas) { wimplash.experiments.canvas = {}; }
-if (!wimplash.experiments.canvas.heightmap) { wimplash.experiments.canvas.heightmap = {}; }
+if (typeof(wimplash) === 'undefined') { wimplash = {}; }
+if (typeof(wimplash.experiments) === 'undefined') { wimplash.experiments = {}; }
+if (typeof(wimplash.experiments.canvas) === 'undefined') { wimplash.experiments.canvas = {}; }
+if (typeof(wimplash.experiments.canvas.heightmap) === 'undefined') { wimplash.experiments.canvas.heightmap = {}; }
 wimplash.experiments.canvas.heightmap.HeightMap = function HeightMap(props) {
 };
 wimplash.experiments.canvas.heightmap.HeightMap.prototype.generateTo = function generateTo(ctx) {
